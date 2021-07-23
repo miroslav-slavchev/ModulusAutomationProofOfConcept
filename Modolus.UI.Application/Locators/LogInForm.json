@@ -1,0 +1,18 @@
+{
+  "SearchContext": {
+    "type": "CssSelector",
+    "locator": "form[method='post']"
+  },
+  "EmailAddress": {
+    "type": "Id",
+    "locator": "Username"
+  },
+  "Password": {
+    "type": "Id",
+    "locator": "Passphrase"
+  },
+  "SignIn": {
+    "type": "CssSelector",
+    "locator": "button[value='login']"
+  }
+}

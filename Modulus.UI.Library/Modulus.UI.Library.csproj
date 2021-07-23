@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="91.0.4472.10100" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modulus.UI\Modulus.UI.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="if not exist &quot;BrowserDrivers&quot; mkdir &quot;BrowserDrivers&quot; xcopy /Y &quot;$(ProjectDir)..\packages\Selenium.WebDriver.ChromeDriver.91.0.4472.10100\driver\win32\chromedriver.exe&quot; &quot;$(TargetDir)BrowserDrivers&quot;" />
+  </Target>
+
+</Project>

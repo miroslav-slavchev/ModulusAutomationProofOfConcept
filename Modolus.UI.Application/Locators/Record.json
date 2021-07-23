@@ -1,0 +1,14 @@
+{
+  "RecordName": {
+    "type": "CssSelector",
+    "locator": "div.label-header.underline-on-hover"
+  },
+  "SubRecord": {
+    "type": "ClassName",
+    "locator": "rl-child"
+  },
+  "ExpandCollapseArrow": {
+    "type": "CssSelector",
+    "locator": "i.icon-arrow"
+  }
+}

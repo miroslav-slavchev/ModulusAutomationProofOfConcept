@@ -1,0 +1,10 @@
+{
+  "SearchContext": {
+    "type": "ClassName",
+    "locator": "rl-ctn"
+  },
+  "Record": {
+    "type": "ClassName",
+    "locator": "rl-parent"
+  }
+}
