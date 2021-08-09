@@ -1,0 +1,26 @@
+{
+  "SearchContext": {
+    "type": "ClassName",
+    "locator": "main__item main__item__search"
+  },
+  "TextInput": {
+    "type": "CssSelector",
+    "locator": "input.input__control.input__input"
+  },
+  "Keyboard": {
+    "type": "CssSelector",
+    "locator": "i.keyboard-loader__icon"
+  },
+  "SearchButton": {
+    "type": "CssSelector",
+    "locator": "button.button"
+  },
+  "VoiceSearch": {
+    "type": "CssSelector",
+    "locator": "button.button"
+  },
+  "ImageSearch": {
+    "type": "CssSelector",
+    "locator": "button.button"
+  }
+}

@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Modolus.UI.Application\Modulus.UI.Library.Application.csproj" />
+    <ProjectReference Include="..\Modolus.UI.Application\Modulus.UI.Application.Phoenix.csproj" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">

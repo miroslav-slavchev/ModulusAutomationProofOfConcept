@@ -1,5 +1,5 @@
-﻿using Modulus.UI.Library.PageComponents.Generic;
-using Modulus.UI.Library.PageComponents.PageObject;
+﻿using Modulus.UI.Library.PageElements.Generic;
+using Modulus.UI.Library.PageElements;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,0 +1,18 @@
+{
+  "SearchContext": {
+    "type": "Id",
+    "locator": "sb_form"
+  },
+  "TextInput": {
+    "type": "Id",
+    "locator": "sb_form_q"
+  },
+  "Keyboard": {
+    "type": "Id",
+    "locator": "vkeyIcon"
+  },
+  "SearchButton": {
+    "type": "Id",
+    "locator": "sb_form_go"
+  }
+}
