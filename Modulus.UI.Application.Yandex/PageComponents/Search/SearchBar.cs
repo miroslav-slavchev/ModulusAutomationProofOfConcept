@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Modulus.UI.Library.PageElements.Generic.PageObjects.Field.Search;
 using Modulus.UI.Library.PageElements.Generic.Interfaces;
 
-namespace Modulus.UI.Application.Yandex.PageComponents
+namespace Modulus.QA.UI.Application.Yandex.PageComponents
 {
     public class SearchBar : BaseSearchBar
     {

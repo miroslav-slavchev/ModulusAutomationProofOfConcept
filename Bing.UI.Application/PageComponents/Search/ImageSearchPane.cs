@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modulus.UI.Application.Bing.PageComponents
+namespace Modulus.QA.UI.Application.Bing.PageComponents
 {
     public class ImageSearchPane : PageObject
     {

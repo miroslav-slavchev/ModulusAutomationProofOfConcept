@@ -9,20 +9,12 @@ using System.Threading.Tasks;
 
 namespace Testing.Hooks
 {
-    public class Browser
+    public class BaseTest
     {
         [SetUp]
         public void SetUp()
         {
             DriverManagerContext.DriverManager.StartDriver();
-            DriverManagerContext.DriverManager.LoadUrl("https://qa2.retaincloud.com/uiauto/");
-            LogIn();
-        }
-
-        private static void LogIn()
-        {
-            LogInInteractions logIn = new LogInInteractions();
-            logIn.LogIn("AutomationUser@retaininternational.com", "Automation");
         }
 
         [TearDown]

@@ -1,9 +1,9 @@
-﻿using Modulus.UI.Library.Application.PageComponents.RecordList;
+﻿using Modulus.QA.UI.Application.Phoenix.PageComponents.RecordList;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Modulus.UI.Library.Application.PageInteractions
+namespace Modulus.QA.UI.Application.Phoenix.PageInteractions
 {
     public class RecordInteractions
     {

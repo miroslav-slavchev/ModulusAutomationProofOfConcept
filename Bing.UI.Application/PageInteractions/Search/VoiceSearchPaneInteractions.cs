@@ -1,4 +1,4 @@
-﻿using Modulus.UI.Application.Bing.PageComponents;
+﻿using Modulus.QA.UI.Application.Bing.PageComponents;
 using Modulus.UI.Library.PageElements;
 using Modulus.UI.Library.PageElements.Abstract;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modulus.UI.Application.Bing.PageInteractions.Search
+namespace Modulus.QA.UI.Application.Bing.PageInteractions.Search
 {
     public class VoiceSearchPaneInteractions : PageInteraction
     {

@@ -1,12 +1,12 @@
-﻿using Modulus.UI.Library.Application.PageComponents.RecordList;
-using Modulus.UI.Library.Application.PageInteractions;
+﻿using Modulus.QA.UI.Application.Phoenix.PageComponents.RecordList;
+using Modulus.QA.UI.Application.Phoenix.PageInteractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modulus.UI.Library.Application.Pages
+namespace Modulus.QA.UI.Application.Phoenix.Pages
 {
     public class PlannerPage
     {

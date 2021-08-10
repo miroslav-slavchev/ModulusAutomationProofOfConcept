@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modulus.UI.Application.Bing.PageInteractions
+namespace Modulus.QA.UI.Application.Bing.PageInteractions
 {
     public class ImageSearchPaneInteractions : PageInteraction
     {

@@ -1,6 +1,6 @@
-﻿using Modulus.UI.Library.Application.PageComponents;
+﻿using Modulus.QA.UI.Application.Phoenix.PageComponents;
 
-namespace Modulus.UI.Library.Application.PageInteractions.LogIn
+namespace Modulus.QA.UI.Application.Phoenix.PageInteractions.LogIn
 {
     public class LogInInteractions
     {

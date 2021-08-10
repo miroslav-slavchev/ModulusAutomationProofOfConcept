@@ -1,6 +1,6 @@
-﻿using Modulus.UI.Library.Application.PageComponents.RecordList;
+﻿using Modulus.QA.UI.Application.Phoenix.PageComponents.RecordList;
 
-namespace Modulus.UI.Library.Application.PageInteractions
+namespace Modulus.QA.UI.Application.Phoenix.PageInteractions
 {
     public class SubRecordInteractions
     {

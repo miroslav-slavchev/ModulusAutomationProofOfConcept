@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modulus.UI.Library.Application.PageComponents
+namespace Modulus.QA.UI.Application.Phoenix.PageComponents
 {
     public class LogInForm : PageObject
     {

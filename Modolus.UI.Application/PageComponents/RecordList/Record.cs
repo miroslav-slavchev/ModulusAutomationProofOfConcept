@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modulus.UI.Library.Application.PageComponents.RecordList
+namespace Modulus.QA.UI.Application.Phoenix.PageComponents.RecordList
 {
     public class Record : PageObject
     {

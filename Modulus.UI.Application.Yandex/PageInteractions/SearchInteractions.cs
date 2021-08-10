@@ -1,4 +1,4 @@
-﻿using Modulus.UI.Application.Yandex.PageComponents;
+﻿using Modulus.QA.UI.Application.Yandex.PageComponents;
 using Modulus.UI.Library.PageElements;
 using Modulus.UI.Library.PageElements.Abstract;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modulus.UI.Application.Yandex.PageInteractions
+namespace Modulus.QA.UI.Application.Yandex.PageInteractions
 {
     public class SearchInteractions : PageInteraction
     {

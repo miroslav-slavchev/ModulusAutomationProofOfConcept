@@ -1,4 +1,4 @@
-﻿using Modulus.UI.Application.Bing.PageComponents;
+﻿using Modulus.QA.UI.Application.Bing.PageComponents;
 using Modulus.UI.Library.PageElements;
 using Modulus.UI.Library.PageElements.Abstract;
 using Modulus.UI.Library.PageElements.Generic;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modulus.UI.Application.Bing.PageInteractions
+namespace Modulus.QA.UI.Application.Bing.PageInteractions
 {
     public class SearchInteractions : PageInteraction
     {
