@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Modulus.UI.Library\Modulus.UI.Library.csproj" />
+    <ProjectReference Include="..\Modulus.UI.Library\Modulus.QA.UI.Library.csproj" />
   </ItemGroup>
 
 </Project>

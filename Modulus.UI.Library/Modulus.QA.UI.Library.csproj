@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Modulus.UI\Modulus.UI.csproj" />
+    <ProjectReference Include="..\Modulus.UI\Modulus.QA.csproj" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">

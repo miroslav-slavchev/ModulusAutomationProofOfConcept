@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.UI", "Modulus.UI\Modulus.UI.csproj", "{D92435D3-03E8-4D97-8A34-08FD345088FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.QA", "Modulus.UI\Modulus.QA.csproj", "{D92435D3-03E8-4D97-8A34-08FD345088FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.UI.Library", "Modulus.UI.Library\Modulus.UI.Library.csproj", "{B0376484-F5F1-46E2-97B1-FBA89F200565}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.QA.UI.Library", "Modulus.UI.Library\Modulus.QA.UI.Library.csproj", "{B0376484-F5F1-46E2-97B1-FBA89F200565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.UI.Application.Phoenix", "Modolus.UI.Application\Modulus.UI.Application.Phoenix.csproj", "{87050985-C959-4561-9D7C-432D20D9DCBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.QA.UI.Application.Phoenix", "Modolus.UI.Application\Modulus.QA.UI.Application.Phoenix.csproj", "{87050985-C959-4561-9D7C-432D20D9DCBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{8CD1D07B-D144-43F0-954E-A55EB5109251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.UI.Application.Bing", "Bing.UI.Application\Modulus.UI.Application.Bing.csproj", "{AC85A664-5C44-4E98-8E59-5F46F5FC49FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.QA.UI.Application.Bing", "Bing.UI.Application\Modulus.QA.UI.Application.Bing.csproj", "{AC85A664-5C44-4E98-8E59-5F46F5FC49FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.UI.Application.Yandex", "Modulus.UI.Application.Yandex\Modulus.UI.Application.Yandex.csproj", "{A941F6EA-D6E0-42C2-BBE2-AB3C3B55EFE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modulus.QA.UI.Application.Yandex", "Modulus.UI.Application.Yandex\Modulus.QA.UI.Application.Yandex.csproj", "{A941F6EA-D6E0-42C2-BBE2-AB3C3B55EFE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
