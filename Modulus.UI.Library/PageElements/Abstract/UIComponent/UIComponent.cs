@@ -19,5 +19,9 @@ namespace Modulus.UI.Library.PageElements.Generic
         {
             _searchContext = searchContext;
         }
+
+        public UIComponent()
+        {
+        }
     }
 }

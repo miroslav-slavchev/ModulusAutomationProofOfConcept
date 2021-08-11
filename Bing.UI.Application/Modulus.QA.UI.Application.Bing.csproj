@@ -5,7 +5,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Modulus.UI.Library\Modulus.QA.UI.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Locators\ImageSearchPane.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Locators\Keyboard.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Locators\SearchBar.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Locators\VoiceSearchPane.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

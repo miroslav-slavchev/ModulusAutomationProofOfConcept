@@ -1,7 +1,7 @@
 {
   "SearchContext": {
-    "type": "ClassName",
-    "locator": "main__item main__item__search"
+    "type": "Id",
+    "locator": "sb_form"
   },
   "TextInput": {
     "type": "CssSelector",
@@ -12,8 +12,8 @@
     "locator": "i.keyboard-loader__icon"
   },
   "SearchButton": {
-    "type": "CssSelector",
-    "locator": "button.button"
+    "type": "Id",
+    "locator": "sb_form_go"
   },
   "VoiceSearch": {
     "type": "CssSelector",

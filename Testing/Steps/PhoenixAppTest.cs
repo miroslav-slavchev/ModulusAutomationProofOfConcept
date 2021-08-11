@@ -13,17 +13,18 @@ namespace Testing.Steps
 {
     public class PhoenixAppTest : BaseTest
     {
-        
-    private static void LogIn()
-    {
-        LogInInteractions logIn = new LogInInteractions();
-        logIn.LogIn("AutomationUser@retaininternational.com", "Automation");
-    }
 
-    [Test]
-        public void RecordListRecord()
+        private static void LogIn()
         {
             DriverManagerContext.DriverManager.LoadUrl("https://qa2.retaincloud.com/uiauto/");
+            LogInInteractions logIn = new LogInInteractions();
+            logIn.LogIn("AutomationUser@retaininternational.com", "Automation");
+        }
+
+        [Test]
+        public void RecordListRecord()
+        {
+
             LogIn();
 
             PlannerPage page = new PlannerPage();

@@ -1,5 +1,4 @@
-﻿using Modulus.UI.Library.Application.PageInteractions.LogIn;
-using Modulus.UI.Library.Selenium.Driver;
+﻿using Modulus.UI.Library.Selenium.Driver;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;

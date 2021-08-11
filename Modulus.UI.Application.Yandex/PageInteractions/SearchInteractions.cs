@@ -11,8 +11,12 @@ namespace Modulus.QA.UI.Application.Yandex.PageInteractions
 {
     public class SearchInteractions : PageInteraction
     {
-        protected override SearchBar SearchContext => new();
+        protected override SearchBar SearchContext => new("SearchBar");
 
-       
+        public void PerformQuickSearch(string text)
+        {
+            SearchContext.TextInput.EnterText(text);
+            SearchContext.SearchButton.Click();
+        }
     }
 }

@@ -1,18 +1,18 @@
 {
   "SearchContext": {
-    "type": "Id",
-    "locator": "sb_form"
+    "type": "CssSelector",
+    "locator": "td.main__item.main__item__search"
   },
   "TextInput": {
-    "type": "Id",
-    "locator": "sb_form_q"
+    "type": "CssSelector",
+    "locator": "input.input__control"
   },
   "Keyboard": {
-    "type": "Id",
-    "locator": "vkeyIcon"
+    "type": "CssSelector",
+    "locator": "div.input__keyboard-button"
   },
   "SearchButton": {
-    "type": "Id",
-    "locator": "sb_form_go"
+    "type": "ClassName",
+    "locator": "search2__button"
   }
 }

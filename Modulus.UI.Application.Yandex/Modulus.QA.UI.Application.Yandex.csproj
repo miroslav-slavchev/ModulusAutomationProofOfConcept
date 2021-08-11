@@ -8,4 +8,13 @@
     <ProjectReference Include="..\Modulus.UI.Library\Modulus.QA.UI.Library.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Locators\Keyboard.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Locators\SearchBar.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
