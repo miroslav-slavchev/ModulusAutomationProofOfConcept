@@ -13,7 +13,7 @@ namespace Modulus.QA.UI.Application.Phoenix.PageInteractions
 
         public RecordInteractions GetRecord(string name)
         {
-            var record = RecordList.Records.Where(record => record.RecordName.LabelText == name).FirstOrDefault();
+            var record = RecordList.Records.Where(record => record.RecordName.TextContent == name).FirstOrDefault();
             RecordInteractions recordInteractions = new(record);
             return recordInteractions;
         }

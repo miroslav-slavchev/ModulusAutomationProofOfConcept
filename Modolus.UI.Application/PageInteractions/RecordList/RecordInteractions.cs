@@ -16,12 +16,12 @@ namespace Modulus.QA.UI.Application.Phoenix.PageInteractions
 
         public SubRecordInteractions GetSubRecord(string name)
         {
-            var subRecord = Record.SubRecords.Where(subRecordObject => subRecordObject.FieldValues.First().Value.LabelText == name).FirstOrDefault();
+            var subRecord = Record.SubRecords.Where(subRecordObject => subRecordObject.FieldValues.First().Value.TextContent == name).FirstOrDefault();
             SubRecordInteractions recordInteractions = new(subRecord);
             return recordInteractions;
         }
 
-        public string Name => Record.RecordName.LabelText;
+        public string Name => Record.RecordName.TextContent;
 
         public void ClickExpandCollapseArrow() => Record.ExpandCollapseArrow.Click();
 

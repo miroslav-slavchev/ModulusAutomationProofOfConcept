@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using Modulus.QA.UI.Library.PageElements.Abstract.Interfaces.UIComponent.Read;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Modulus.UI.Library.PageElements.Generic
 {
-    public class Label : UIComponent
+    public class Label : UIComponent, IReadable
     {
         public Label(IWebElement searchContext = null) : base(searchContext)
         {
         }
 
-        public string LabelText => _searchContext.Text;
+        public string TextContent => _searchContext.Text;
 
         public ClickableLabel IsClickable()
         {

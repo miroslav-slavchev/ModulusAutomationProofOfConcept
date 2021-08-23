@@ -1,4 +1,5 @@
-﻿using Modulus.UI.Config;
+﻿using Modulus.QA.UI.Library.Exceptions.LocatorJson;
+using Modulus.UI.Config;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using OpenQA.Selenium;
@@ -18,8 +19,6 @@ namespace Modulus.UI
         private const string LocatorStringKey = "locator";
         private const string LocatorStringFormatKey = "locatorFormat";
         private const string SearchContextKey = "SearchContext";
-        private const string BodyJsonFileName = "Body";
-        private const string BodyKey = "Body";
 
         private JObject _locatorsJson;
 
@@ -125,7 +124,6 @@ namespace Modulus.UI
 
         internal By GetBodyLocator() => By.TagName("body");
 
-        //TODO custom exception
         private string GetLocatorType(string webElementName)
         {
             JToken locatorType = GetWebElementJson(webElementName)[LocatorTypeKey];
@@ -138,13 +136,12 @@ namespace Modulus.UI
                     webElementName,
                     FileName
                 );
-                throw new JsonException(message);
+                throw new NoLocatorTypeException(message);
             }
 
             return locatorType.ToString();
         }
 
-        //TODO custom exception
         private string GetLocatorString(string webElementName)
         {
             JToken locatorString = GetWebElementJson(webElementName)[LocatorStringKey];
@@ -157,13 +154,12 @@ namespace Modulus.UI
                     webElementName,
                     FileName
                 );
-                throw new JsonException(message);
+                throw new NoLocatorKeyException(message);
             }
 
             return locatorString.ToString();
         }
 
-        //TODO custom exception
         private string GetLocatorStringFormat(string webElementName)
         {
             JToken locatorStringFormat = GetWebElementJson(webElementName)[LocatorStringFormatKey];
@@ -176,13 +172,12 @@ namespace Modulus.UI
                     webElementName,
                     FileName
                 );
-                throw new JsonException(message);
+                throw new NoLocatorKeyException(message);
             }
 
             return locatorStringFormat.ToString();
         }
 
-        //TODO custom exception
         private JObject GetWebElementJson(string webElementName)
         {
             JObject webElementJson = (JObject)_locatorsJson[webElementName];
@@ -190,7 +185,7 @@ namespace Modulus.UI
             if (webElementJson == null)
             {
                 string message = string.Format("{0} key not found in {1}", webElementName, FileName);
-                throw new JsonException(message);
+                throw new NoSuchLocatorJsonKeyException(message);
             }
 
             return webElementJson;
