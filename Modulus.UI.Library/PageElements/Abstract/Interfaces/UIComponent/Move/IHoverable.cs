@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modulus.UI.Library.PageElements.Generic.Interfaces
+namespace Modulus.QA.UI.Library.PageElements.Abstract.Interfaces.UIComponent
 {
-    public interface IDraggable
+    public interface IHoverable
     {
-        void DragAndDrop(dynamic target);
+        void Hover();
     }
 }

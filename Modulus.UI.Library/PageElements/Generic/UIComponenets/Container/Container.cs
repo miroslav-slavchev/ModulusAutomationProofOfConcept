@@ -2,6 +2,7 @@
 using Modulus.QA.UI.Library.PageElements.Generic.UIComponenets.Container;
 using Modulus.UI.Library.Selenium.Driver;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using System.Collections.Generic;
 using System.Diagnostics;
