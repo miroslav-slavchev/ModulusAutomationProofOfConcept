@@ -16,22 +16,21 @@ namespace Modulus.UI.Library.PageElements.Generic
     {
         protected LocatorProvider LocatorProvider { get; set; }
 
-        internal Container(string locatorFileNmae) : base()
+        public Container(string locatorFileNmae) : base()
         {
             LocatorProvider = new LocatorProvider(locatorFileNmae);
             InitSearchContext(null);
+        }
+        public Container(string locatorFileNmae, WaitUIObject waitUIObject = null) : base()
+        {
+            LocatorProvider = new LocatorProvider(locatorFileNmae);
+            InitSearchContextWithWait(waitUIObject);
         }
 
         internal Container(string locatorFileNmae, IWebElement searchContext = null) : base()
         {
             LocatorProvider = new LocatorProvider(locatorFileNmae);
             InitSearchContext(searchContext);
-        }
-
-        internal Container(string locatorFileNmae, WaitUIObject waitUIObject = null) : base()
-        {
-            LocatorProvider = new LocatorProvider(locatorFileNmae);
-            InitSearchContextWithWait(waitUIObject);
         }
 
         public Container FindContainer(string name = null) => new(name, GetElement(name));
@@ -47,6 +46,8 @@ namespace Modulus.UI.Library.PageElements.Generic
         public IconButton FindClickableIcon(string name = null) => new(GetElement(name));
 
         public ClickableLabel FindClickableLabel(string name = null) => new(GetElement(name));
+
+        public Label FindLabel(string name = null) => new(GetElement(name));
 
         #region InitSearchContext
         private void InitSearchContext(IWebElement searchContext)

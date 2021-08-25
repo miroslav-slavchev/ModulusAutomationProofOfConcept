@@ -6,9 +6,7 @@ namespace Modulus.UI.Library.PageElements.Generic
 {
     public class Button : UIComponent, IClickable
     {
-        public Button(IWebElement searchContext) : base(searchContext)
-        {
-        }
+        internal Button(IWebElement searchContext) : base(searchContext) { }
 
         public void Click()
         {

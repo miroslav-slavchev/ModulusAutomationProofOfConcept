@@ -9,7 +9,18 @@ namespace Modulus.UI.Library.PageElements.Abstract
 {
     public abstract class PageInteraction
     {
+        protected PageObject _searchContext;
+
         protected abstract PageObject SearchContext { get; }
 
+        public PageInteraction()
+        {
+
+        }
+
+        public PageInteraction(PageObject searchContext)
+        {
+            _searchContext = searchContext;
+        }
     }
 }

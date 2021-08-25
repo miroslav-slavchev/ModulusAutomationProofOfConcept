@@ -10,7 +10,7 @@ namespace Modulus.UI.Library.PageElements.Generic
 {
     public class Label : UIComponent, IReadable
     {
-        public Label(IWebElement searchContext = null) : base(searchContext)
+        internal Label(IWebElement searchContext = null) : base(searchContext)
         {
         }
 

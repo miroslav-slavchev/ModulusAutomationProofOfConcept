@@ -9,7 +9,7 @@ namespace Modulus.UI.Library.PageElements.Generic
 {
     public class Icon : UIComponent
     {
-        public Icon(IWebElement searchContext = null) : base(searchContext)
+        internal Icon(IWebElement searchContext = null) : base(searchContext)
         {
         }
         

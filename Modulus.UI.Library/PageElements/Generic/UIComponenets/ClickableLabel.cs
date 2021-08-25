@@ -10,7 +10,7 @@ namespace Modulus.UI.Library.PageElements.Generic
 {
     public class ClickableLabel : Label, IClickable
     {
-        public ClickableLabel(IWebElement searchContext = null) : base(searchContext) { }
+        internal ClickableLabel(IWebElement searchContext = null) : base(searchContext) { }
 
         public void Click() => _searchContext.Click();
 

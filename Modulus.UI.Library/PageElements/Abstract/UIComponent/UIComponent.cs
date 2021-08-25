@@ -8,12 +8,12 @@ namespace Modulus.UI.Library.PageElements.Generic
 
         protected IWebElement _searchContext;
 
-        public UIComponent(IWebElement searchContext)
+        internal UIComponent(IWebElement searchContext)
         {
             _searchContext = searchContext;
         }
 
-        public UIComponent()
+        internal UIComponent()
         {
         }
     }

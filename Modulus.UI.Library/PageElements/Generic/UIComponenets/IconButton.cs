@@ -13,7 +13,7 @@ namespace Modulus.UI.Library.PageElements.Generic
     {
         private IWebElement ClickableContext { get; set; }
 
-        public IconButton(IWebElement searchContext = null) : base(searchContext)
+        internal IconButton(IWebElement searchContext = null) : base(searchContext)
         {
         }
 

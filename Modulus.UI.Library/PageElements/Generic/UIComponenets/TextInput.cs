@@ -10,7 +10,7 @@ namespace Modulus.UI.Library.PageElements.Generic
 {
     public class TextInput : UIComponent, ITextInput
     {
-        public TextInput(IWebElement searchContext) : base(searchContext)
+        internal TextInput(IWebElement searchContext) : base(searchContext)
         {
         }
 
