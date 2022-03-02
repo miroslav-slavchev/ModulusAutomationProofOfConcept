@@ -19,6 +19,7 @@ namespace Testing.Steps
             DriverManagerContext.DriverManager.LoadUrl("https://www.bing.com/");
             BingHomePage page = new BingHomePage();
             page.Search.PerformQuickSearch("selenium");
+
         }
 
         [Test]

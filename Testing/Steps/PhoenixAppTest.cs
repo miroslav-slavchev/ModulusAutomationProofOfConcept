@@ -29,6 +29,7 @@ namespace Testing.Steps
 
             PlannerPage page = new PlannerPage();
             var record = page.RecordList.GetRecord("Automation").GetSubRecord("Unassigned");
+            var r2 = page.RecordList.GetRecord("");
         }
     }
 }
